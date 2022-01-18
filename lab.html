@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <script>
+        
+        function test(){
+            let reader = new FileReader();
+           console.log(document.getElementById("testiput").files[0]instanceof Blob)
+            let blob = document.getElementById("testiput").files[0];
+           fetch("https://storage.googleapis.com/upload/storage/v1/b/testdemo0108/o?uploadType=media&name=test3.png",{
+            method:"post",
+            body:blob,
+            headers:new Headers({
+                "Authorization":"Bearer ya29.A0ARrdaM_NETr9ChzCeLR0D6I3mW4qBW8MTgDrqayG6oFwQ71TzsaixxSgh88W2DXd1ty4aUMzyL6aartDwHTXb_gVGFtQI4hi_p1I29rJ3BvD1uW6erwRDX9CykqY0-yQA_a6oJKFG9GZfSJVEMIFCSGkWt1S",
+                "Content-Type":"image/png"
+            })})
+            .then((res)=>{
+                console.log(res)
+                
+            })
+
+
+
+    //https://developers.google.com/oauthplayground/?code=4/0AX4XfWjFt4cNrqVlD6Npd9sFauo_4Sb5HOtjWuxJhRFEPBsShuDldGc9iOEd-VRDORTRHw&scope=https://www.googleapis.com/auth/devstorage.full_control
+
+        }
+
+    </script>
+    <input id = "testiput"type="file">
+    <button onclick="test()" >post</button>
+
+</body>
+</html>
