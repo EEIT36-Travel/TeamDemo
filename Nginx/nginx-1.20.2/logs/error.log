@@ -1,0 +1,25 @@
+2021/12/30 05:09:35 [error] 51108#55480: *1 CreateFile() "F:\MY\program language\Nginx\nginx-1.20.2/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/01/04 12:39:45 [alert] 54756#13280: worker process 35080 exited with code C0000142
+2022/01/04 12:39:45 [alert] 54756#13280: could not respawn worker
+2022/01/04 12:39:46 [alert] 39348#54828: worker process 24256 exited with code C0000142
+2022/01/04 12:39:46 [alert] 39348#54828: could not respawn worker
+2022/01/04 12:39:46 [alert] 43704#51984: worker process 22012 exited with code C0000142
+2022/01/04 12:39:46 [alert] 43704#51984: could not respawn worker
+2022/01/04 12:39:46 [alert] 54756#13280: worker process 33340 exited with code C0000142
+2022/01/04 12:39:46 [alert] 54756#13280: could not respawn worker
+2022/01/04 12:39:47 [alert] 39348#54828: worker process 12728 exited with code C0000142
+2022/01/04 12:39:47 [alert] 39348#54828: could not respawn worker
+2022/01/04 12:39:47 [alert] 54756#13280: worker process 43408 exited with code C0000142
+2022/01/04 12:39:47 [alert] 54756#13280: could not respawn worker
+2022/01/04 12:39:47 [alert] 39348#54828: worker process 5648 exited with code C0000142
+2022/01/04 12:39:47 [alert] 39348#54828: could not respawn worker
+2022/01/04 12:39:47 [alert] 54756#13280: worker process 22760 exited with code C0000142
+2022/01/04 12:39:47 [alert] 54756#13280: could not respawn worker
+2022/01/24 20:15:51 [notice] 5884#5176: signal process started
+2022/01/24 20:18:06 [notice] 18656#11928: signal process started
+2022/01/24 20:20:11 [notice] 11428#31408: signal process started
+2022/01/24 20:24:44 [notice] 27080#9704: signal process started
+2022/01/24 20:25:06 [notice] 29532#29484: signal process started
+2022/01/24 20:25:53 [emerg] 7892#37600: duplicate location "/" in C:\Users\user\Desktop\Test\reactbuild\Nginx\nginx-1.20.2/conf/nginx.conf:51
+2022/01/24 20:26:04 [emerg] 33984#17756: duplicate location "/" in C:\Users\user\Desktop\Test\reactbuild\Nginx\nginx-1.20.2/conf/nginx.conf:51
+2022/01/24 21:23:38 [notice] 38300#37820: signal process started

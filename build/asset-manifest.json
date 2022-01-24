@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.826836c6.css",
+    "main.js": "/static/js/main.c102a044.js",
+    "static/media/loginbackground.jpg": "/static/media/loginbackground.0411ded58eb8dc407fc2.jpg",
+    "static/media/9.jpg": "/static/media/9.83526f6f8deeaeba23eb.jpg",
+    "static/media/loupe.png": "/static/media/loupe.1d92f967297920015306.png",
+    "index.html": "/index.html",
+    "static/media/drag_handle-black-18dp.svg": "/static/media/drag_handle-black-18dp.8a24e7ee5ac74d66b504f32557f8e6d5.svg",
+    "main.826836c6.css.map": "/static/css/main.826836c6.css.map",
+    "main.c102a044.js.map": "/static/js/main.c102a044.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.826836c6.css",
+    "static/js/main.c102a044.js"
+  ]
+}
